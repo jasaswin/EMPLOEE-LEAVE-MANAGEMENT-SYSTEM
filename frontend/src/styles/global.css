@@ -1,0 +1,15 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+main {
+  padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #1b1b1b, #000000);
+  font-family: "Roboto", "Poppins", sans-serif;
+}

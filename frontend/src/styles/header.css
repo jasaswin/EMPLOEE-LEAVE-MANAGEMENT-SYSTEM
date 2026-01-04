@@ -1,0 +1,42 @@
+
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: linear-gradient(to right, #141414, #1c1c1c);
+  padding: 14px 32px;
+
+  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+
+.logo {
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #f5c16c;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 1;
+  transform: scale(1.03);
+  text-shadow: 0 0 12px rgba(245, 193, 108, 0.6);
+}
+
+.nav-btn {
+  color: #f5c16c !important;
+  border: 1px solid rgba(245, 193, 108, 0.4) !important;
+  border-radius: 20px !important;
+  padding: 6px 18px !important;
+  transition: all 0.3s ease !important;
+}
+
+.nav-btn:hover {
+  background: rgba(245, 193, 108, 0.15) !important;
+  box-shadow: 0 0 10px rgba(245, 193, 108, 0.4);
+}
