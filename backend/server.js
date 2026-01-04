@@ -8,7 +8,10 @@ const connectDB = require("./config/db");
 const app = express();
 const authRoutes = require("./routes/authroutes");
 
-const leaveRoutes = require("./routes/leaveroutes");
+// const leaveRoutes = require("./routes/leaveroutes");
+
+const leaveRoutes = require("./routes/leaveRoutes");
+
 
 
 // Middleware
