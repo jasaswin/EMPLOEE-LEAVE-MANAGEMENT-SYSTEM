@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(null);
   const [role, setRole] = useState(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [loading, setLoading] = useState(true); // 👈 NEW (important)
+  const [loading, setLoading] = useState(true); 
 
   // Restore auth on refresh
   useEffect(() => {
@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
       setIsAuthenticated(true);
     }
 
-    setLoading(false); // 👈 auth hydration complete
+    setLoading(false); 
   }, []);
 
   const login = (token, role) => {
@@ -45,7 +45,7 @@ export const AuthProvider = ({ children }) => {
         token,
         role,
         isAuthenticated,
-        loading, // 👈 exposed
+        loading, 
         login,
         logout,
       }}
